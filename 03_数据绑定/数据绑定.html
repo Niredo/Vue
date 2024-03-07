@@ -27,16 +27,16 @@
         单向数据绑定：<input type="text" :value="name"><br/>
         双向数据绑定：<input type="text" v-model="name">
     </div>
+
+    <script type="text/javascript">
+        Vue.config.productionTip = false
+    
+        new Vue({
+            el:'#root',
+            data:{
+                name:'Vue'
+            }
+        })
+    </script>
 </body>
-
-<script type="text/javascript">
-    Vue.config.productionTip = false
-
-    new Vue({
-        el:'#root',
-        data:{
-            name:'Vue'
-        }
-    })
-</script>
 </html>
